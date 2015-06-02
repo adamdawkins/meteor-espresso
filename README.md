@@ -31,33 +31,35 @@ Yes, they do, but this one focuses on prototypes. I probably wouldn't use some o
 
 ## The Packages
 So far, this repository includes the following packages:
-### Meteor core
+#### Meteor core
 * `meteor-platform` (obviously)
 * `autopublish`
 * `insecure`
 
-### Code
+#### Code
 * `coffeescript`
 * `underscore`
 * `less`
 
-### CSS Framework
+#### CSS Framework
 * `twbs:bootstrap`
 
-### Automation
+#### Automation
 * `sacha:autorouter`
 * `aldeed:autoform` (Coming Soon)
 * `aldeed:collection2` (For use with autoform, coming soon)
 
-### Routing
+#### Routing
 * `iron:router` This is included with `sacha:autorouter`, but you're going to need it sooner rather than later.
-### Seeds
+
+#### Seeds
 * `anti:fake` 
 
 ## The Directory Structure
 Directory structure may not be that important when prototyping, but by giving you a structure upfront the hope is that:
-1. You'll be able to out-grow the prototyping tools without having to do too much mass re-organisation.
-2. If you have to stop a project and come back to it, there's enough structure here for you to work out what's going on.
+
+* You'll be able to out-grow the prototyping tools without having to do too much mass re-organisation.
+* If you have to stop a project and come back to it, there's enough structure here for you to work out what's going on.
 
 ```
 ├── README.md
