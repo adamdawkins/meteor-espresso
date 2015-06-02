@@ -45,15 +45,15 @@ So far, this repository includes the following packages:
 * `twbs:bootstrap`
 
 #### Automation
-* `sacha:autorouter`
+* [`sacha:autorouter`](https://atmospherejs.com/sacha/autorouter)
 * `aldeed:autoform` (Coming Soon)
 * `aldeed:collection2` (For use with autoform, coming soon)
 
 #### Routing
-* `iron:router` This is included with `sacha:autorouter`, but you're going to need it sooner rather than later.
+* [`iron:router`](https://atmospherejs.com/iron/router) This is included with `sacha:autorouter`, but you're going to need it sooner rather than later.
 
 #### Seeds
-* `anti:fake` 
+* [`anti:fake`](https://atmospherejs.com/anti/fake)
 
 ## The Directory Structure
 Directory structure may not be that important when prototyping, but by giving you a structure upfront the hope is that:
