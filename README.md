@@ -89,3 +89,8 @@ I've included comments in most files, so they should be pretty self-explanatory.
 * Add decaf branch (sans coffeescript)
 * Add `autoform` with example form.
 * Add mobile-app version with ionic/without bootstrap.
+
+## Contributing
+Sure, get involved; especially if you want to add a version that just works better for you (e.g. different CSS framework, vanilla javascript).
+
+Bonus points if you name your branch after an espresso-based drink.
