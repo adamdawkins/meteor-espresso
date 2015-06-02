@@ -50,7 +50,11 @@ So far, this repository includes the following packages:
 * `aldeed:collection2` (For use with autoform, coming soon)
 
 #### Routing
-* [`iron:router`](https://atmospherejs.com/iron/router) This is included with `sacha:autorouter`, but you're going to need it sooner rather than later.
+* [`iron:router`](https://atmospherejs.com/iron/router) This is included with `sacha:autorouter`, but this sets up a default layout.
+
+### Login
+* `accounts-password`
+* [`useraccounts:bootstrap`](https://atmospherejs.com/useraccounts/bootstrap)
 
 #### Seeds
 * [`anti:fake`](https://atmospherejs.com/anti/fake)
