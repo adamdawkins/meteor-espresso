@@ -16,3 +16,6 @@ sacha:autorouter
 anti:fake
 twbs:bootstrap
 less
+joshowens:simple-form
+aldeed:collection2
+aldeed:autoform
