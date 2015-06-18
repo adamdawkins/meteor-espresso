@@ -18,10 +18,6 @@
 # Schemas.Post = new SimpleSchema(
 #   title:
 #     type: String
-#   slug:
-#     type: String
-#     index: 1
-#     unique: true
 #   body:
 #     type: String
 #     autoform: afFieldInput: type: "textarea"
