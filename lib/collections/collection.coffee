@@ -7,8 +7,8 @@
 #
 # Define them in each collection file avoids load order issues
 #
-# @Collections = @Collections || {}
-# @Schemas = @Schemas ||  {}
+@Collections = @Collections || {}
+@Schemas = @Schemas ||  {}
 #
 # Setup the Mongo Collection
 # @Posts = Collections.Posts = new Mongo.Collection 'posts'
