@@ -9,19 +9,21 @@ As part of my (Prototyping With Meteor)[http://prototypingwith.meteor.com] cours
 The purpose is simple, to give you everything you need to get started on an app idea as quickly as possible. 
 
 ## Getting Started
+create a folder for your project
+
+```bash
+$ mkdir my-project-name
+$ cd my-project-name
+```
 clone the repository
 ```bash
-git clone https://github.com/adamdawkins/meteor-espresso.git
+git clone https://github.com/adamdawkins/meteor-espresso.git .
 ```
-rename it for your project
-``` bash
-mv meteor-espresso my-project-name
-cd my-project-name
-```
-remove the git repository and start your own:
+remove the git repository and README.md and start your own:
 
 ```bash
 rm -fr .git
+rm README.md
 git init
 git add --all .
 git commit -m 'Initial commit from Meteor Espresso'
