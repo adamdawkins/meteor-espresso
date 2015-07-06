@@ -92,7 +92,7 @@ Directory structure may not be that important when prototyping, but by giving yo
 I've included comments in most files, so they should be pretty self-explanatory.
 
 ## To-do
-* Add decaf branch (sans coffeescript)
+* ~Add decaf branch (sans coffeescript)~
 * Add `autoform` with example form.
 * Add mobile-app version with ionic/without bootstrap.
 
