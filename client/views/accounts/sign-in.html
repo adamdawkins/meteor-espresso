@@ -1,3 +1,22 @@
 <template name="signIn">
-  {{> atForm}}
+  {{#contentFor "headerButtonLeft"}}
+    {{>ionNavBackButton path="home"}}
+  {{/contentFor}}
+
+  {{#contentFor "headerTitle"}}
+    <h1 class="title">Sign In</h1>
+  {{/contentFor}}
+
+  {{#ionView}}
+    {{#ionContent}}
+      {{#if currentUser}}
+      <div class="padding">
+        <button class="button button-positive button-block">Log Out</button>
+      </div>
+      {{else}}
+        {{> atForm}}
+      {{/if}}
+    {{/ionContent}}
+  {{/ionView}}
+
 </template>
